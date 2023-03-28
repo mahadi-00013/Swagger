@@ -10,9 +10,15 @@
             "email": "mahediihasan220@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Mahadi\\SwaggerUiForLaravelProject\\": "src/"
+        }
+    },
     "require": {
         "php": "^8.0",
-        "composer/installers": "~1.0"
+        "composer/installers": "~1.0",
+        "mahadi/swagger-ui-for-laravel-project": "1.0.0"
     },
     "extra":{
         "installer-paths":{
