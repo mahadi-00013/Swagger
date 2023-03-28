@@ -11,12 +11,11 @@
         }
     ],
     "require": {
-        "php": "^8.0",
-        "laravel/framework": "^10.0"
+        "php": "^8.0"
     },
     "extra":{
         "installer-paths":{
-          "./public/": ["mahadi/swagger-ui-for-laravel-project"]
+          "public/": ["mahadi/swagger-ui-for-laravel-project"]
         }
     },
     "minimum-stability": "stable",
