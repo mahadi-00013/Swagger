@@ -2,19 +2,14 @@
     "name": "mahadi/swagger-ui-for-laravel-project",
     "description": "Swagger UI for Laravel Project With Custom Configuration Path.",
     "type": "library",
-    "keywords": ["swagger", "swagger-ui", "laravel"],
     "license": "MIT",
+    "keywords": ["swagger", "swagger-ui", "laravel"],
     "authors": [
         {
             "name": "Md. Mahadi Islam",
-            "email": "mahadi.islam@bd.adventurekk.com"
+            "email": "mahediihasan220@gmail.com"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Swagger\\SwaggerUiForLaravelProject\\": "src/"
-        }
-    },
     "require": {
         "php": "^8.0",
         "laravel/framework": "^10.0"
